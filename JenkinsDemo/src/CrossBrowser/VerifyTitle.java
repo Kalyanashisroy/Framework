@@ -12,6 +12,7 @@ public class VerifyTitle {
 	WebDriver driver;
 	@Test
 	@Parameters("browser")
+	//this is new commit from KR
 	public void verifyTitlePage(String BrowserName)
 	{	
 		if(BrowserName.equalsIgnoreCase("firefox"))
