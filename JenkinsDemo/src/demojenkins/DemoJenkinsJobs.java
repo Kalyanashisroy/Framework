@@ -12,10 +12,10 @@ public class DemoJenkinsJobs {
 	@Test
 	public void testJenkins() {
 		System.out.println("Welcome to Jenkins World");
-		System.setProperty("webdriver.gecko.driver", "D:\\Browser\\geckodriver-v0.15.0-win64\\geckodriver.exe");
-		WebDriver driver=new FirefoxDriver();
-		//System.setProperty("webdriver.chrome.driver", "D:\\Browser\\chromedriver_win32\\chromedriver.exe");
-		//WebDriver driver=new ChromeDriver();
+		//System.setProperty("webdriver.gecko.driver", "D:\\Browser\\geckodriver-v0.15.0-win64\\geckodriver.exe");
+		//WebDriver driver=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "D:\\Browser\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 		//System.setProperty("webdriver.opera.driver", "D:\\Browser\\operadriver_win64\\operadriver_win64\\operadriver.exe");
 		//WebDriver driver=new OperaDriver();	
 		//System.setProperty("webdriver.ie.driver", "D:\\Browser\\IEDriverServer_x64_3.3.0\\IEDriverServer.exe");
